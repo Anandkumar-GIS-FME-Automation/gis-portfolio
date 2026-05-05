@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anandkumar | GIS Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    style.css
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Anandkumar K</h1>
+    <p>GIS Specialist | Spatial Data Engineering | Automation</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    #aboutAbout</a>
+    #skillsSkills</a>
+    #projectsProjects</a>
+    #contact
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a GIS professional with 14+ years of experience in GIS data processing,
+        spatial analysis, georeferencing, and automation. I specialize in converting
+        engineering drawings and raw spatial data into production-ready GIS datasets.
+    </p>
+    <p>
+        My expertise includes ArcGIS, QGIS, FME, and Python-based GIS workflows
+        supporting utilities, renewable energy, and infrastructure projects.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills & Tools</h2>
+
+    <h3>GIS & Mapping</h3>
+    <ul>
+        <li>ArcGIS Pro & ArcGIS Enterprise</li>
+        <li>QGIS</li>
+        <li>Raster & CAD Georeferencing</li>
+    </ul>
+
+    <h3>Automation & Data</h3>
+    <ul>
+        <li>FME (Certified Professional)</li>
+        <li>Python (GDAL, PyMuPDF, Pillow)</li>
+        <li>SQLite, FileGDB, GeoPackage</li>
+    </ul>
+
+    <h3>Data Types</h3>
+    <ul>
+        <li>CAD (DWG / DXF)</li>
+        <li>PDF / TIFF Engineering Drawings</li>
+        <li>Vector & Raster GIS Data</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Bulk Georeferencing of Engineering Drawings</h3>
+        <p><strong>Problem:</strong> Thousands of non-georeferenced PDF and TIFF drawings
+        needed spatial alignment for GIS integration.</p>
+
+        <p><strong>Solution:</strong> Implemented batch georeferencing workflows using
+        QGIS, GDAL, and Python, ensuring consistent spatial accuracy.</p>
+
+        <p><strong>Tools:</strong> QGIS, GDAL, Python</p>
+    </div>
+
+    <div class="project">
+        <h3>SQLite to GIS Data Transformation</h3>
+        <p><strong>Problem:</strong> SQLite datasets without geometry needed conversion
+        into GIS-compatible formats.</p>
+
+        <p><strong>Solution:</strong> Used FME to validate tables, create geometry, handle
+        NULL coordinates, and export to GIS formats.</p>
+
+        <p><strong>Tools:</strong> FME, ArcGIS Pro</p>
+    </div>
+
+    <div class="project">
+        <h3>CAD to GIS Automation</h3>
+        <p><strong>Problem:</strong> CAD drawings lacked structured layers for GIS usage.</p>
+
+        <p><strong>Solution:</strong> Designed FME workflows to extract, clean, and map CAD
+        layers into standardized GIS schemas.</p>
+
+        <p><strong>Tools:</strong> FME, QGIS</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>Location: Bangalore, India</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Anandkumar | GIS Portfolio</p>
+</footer>
+
+</body>
+</html>
