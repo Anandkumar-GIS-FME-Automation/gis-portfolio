@@ -10,7 +10,7 @@
 
 <!-- HEADER -->
 <header>
-    <h1>Anandkumar K</h1>
+    <h1>Anandkumar Kinni</h1>
     <p>GIS Specialist | Spatial Data Engineering | Automation</p>
 </header>
 
